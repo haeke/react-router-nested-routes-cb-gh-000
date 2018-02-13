@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import {connect} from 'react-redux';
 import MoviesList from '../components/MoviesList';
+import MovieShow from './MovieShow';
 // import {bindActionCreators} from 'redux';
 //
 // import {fetchMovies} from '../actions'
