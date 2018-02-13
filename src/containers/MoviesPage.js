@@ -8,7 +8,7 @@ import MovieShow from './MovieShow';
 // import {fetchMovies} from '../actions'
 
 
-const MoviesPage = ({ movies }) =>
+const MoviesPage = ({ match, movies }) =>
   <div>
     <MovieList movies={movies} />
   </div>
