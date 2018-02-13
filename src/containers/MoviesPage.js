@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 // import {bindActionCreators} from 'redux';
-// 
+//
 // import {fetchMovies} from '../actions'
 
 import MoviesList from '../components/MoviesList';
+
+const MoviesPage = ({ movies }) =>
+  <div>
+    <MovieList movies={movies} />
+  </div>
 
 class MoviesPage extends Component {
   render(){
