@@ -11,6 +11,7 @@ import MovieShow from './MovieShow';
 const MoviesPage = ({ match, movies }) =>
   <div>
     <MovieList movies={movies} />
+    <Route exact path={`${match.url}/:movieId`} component={MovieShow} />
   </div>
 
 const mapStateToProps = (state) => {
