@@ -7,7 +7,6 @@ import MovieShow from './MovieShow';
 //
 // import {fetchMovies} from '../actions'
 
-import MoviesList from '../components/MoviesList';
 
 const MoviesPage = ({ movies }) =>
   <div>
