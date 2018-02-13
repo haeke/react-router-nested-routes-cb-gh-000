@@ -11,6 +11,12 @@ const MoviesPage = ({ movies }) =>
     <MovieList movies={movies} />
   </div>
 
+const mapStateToProps = (state) => {
+  return {
+    movies: state.movies
+  };
+};
+
 class MoviesPage extends Component {
   render(){
     return(
