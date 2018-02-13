@@ -11,21 +11,6 @@ const MoviesPage = ({ movies }) =>
     <MovieList movies={movies} />
   </div>
 
-const mapStateToProps = (state) => {
-  return {
-    movies: state.movies,
-  };
-};
-
-class MoviesPage extends Component {
-  render(){
-    return(
-      <div>
-        <MoviesList movies={this.props.movies} />
-      </div>)
-  }
-}
-
 function mapStateToProps(state){
   return {
     movies: state.movies
