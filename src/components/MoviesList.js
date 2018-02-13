@@ -6,6 +6,12 @@ const MoviesList = ({ movies }) => {
     <Link key={movie.id} to={`/movies/${movie.id}`}>
     {movie.title}</Link>
   );
+
+  return (
+    <div>
+      {renderMovies}
+    </div>
+  )
 }
 
 export default (props) => {
