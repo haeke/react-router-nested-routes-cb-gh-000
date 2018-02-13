@@ -14,7 +14,7 @@ const MoviesPage = ({ movies }) =>
 const mapStateToProps = (state) => {
   return {
     movies: state.movies,
-  }
+  };
 }
 
 export default connect(mapStateToProps)(MoviesPage);
