@@ -13,7 +13,7 @@ const MoviesPage = ({ movies }) =>
 
 const mapStateToProps = (state) => {
   return {
-    movies: state.movies
+    movies: state.movies,
   }
 }
 
